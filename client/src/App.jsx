@@ -8,12 +8,14 @@ import Footer from './components/Footer'
 
 
 import Home from './Pages/Home'
-import Program from './pages/Program'
-import Trainer from './pages/Trainer'
-import Membership from './pages/Membership'
-import Storie from './pages/Storie'
-import Contact from './pages/Contact'
+import Program from './Pages/Program'
+import Trainer from './Pages/Trainer'
+import Membership from './Pages/Membership'
+import Storie from './Pages/Storie'
+import Contact from './Pages/Contact'
 import Login from './Pages/Login'
+
+
 
 function App() {
   return (

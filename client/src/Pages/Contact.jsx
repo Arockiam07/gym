@@ -1,10 +1,11 @@
 import React from 'react'
-import Contacts from '../components/ls'
+import Info from '../components/Info'
+
 
 function Contact() {
   return (
     <div>
-      <Contacts/>
+     <Info />
     </div>
   )
 }

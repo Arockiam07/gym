@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 function Memberships() {
-  // --- ⚠️ இங்கே உங்கள் விவரங்களை மாற்றவும் ---
-  const YOUR_UPI_ID = "kevinarockiam806-2@okaxis"; // உங்கள் UPI ID
-  const YOUR_NAME = "Kevin Gym"; // உங்கள் பெயர்
+
+  const YOUR_UPI_ID = "kevinarockiam806-2@okaxis"; 
+  const YOUR_NAME = "Kevin Gym"; //
 
   // State
   const [selectedPlan, setSelectedPlan] = useState(null);

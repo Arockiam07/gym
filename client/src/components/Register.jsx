@@ -41,7 +41,7 @@ function Register() {
     e.preventDefault();
     setMessage('');
 
-    const url = `http://localhost:2525/api/${stage}`; 
+    const url = `https://gym-zrsh.onrender.com/api/${stage}`; 
 
     const payload = stage === 'register' 
       ? { name, email, password } 

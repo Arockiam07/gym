@@ -19,10 +19,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-
         <Navbar />
-
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/program" element={<Program />} />
@@ -30,8 +27,6 @@ function App() {
           <Route path="/membership" element={<Membership />} />
           <Route path="/storie" element={<Storie />} />
           <Route path="/contact" element={<Contact />} />
-          
-
           <Route path="/login" element={<Login/>} />
         </Routes>
 
